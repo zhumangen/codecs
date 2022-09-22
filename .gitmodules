@@ -1,12 +1,12 @@
 [submodule "packages/openjpeg/extern/openjpeg"]
 	path = packages/openjpeg/extern/openjpeg
-	url = https://github.com/PrecisionMetrics/openjpeg.git
+	url = https://github.com/chafey/openjpeg.git
 [submodule "packages/charls/extern/charls"]
 	path = packages/charls/extern/charls
-	url = https://github.com/PrecisionMetrics/charls.git
+	url = https://github.com/team-charls/charls.git
 [submodule "packages/libjpeg-turbo-8bit/extern/libjpeg-turbo"]
 	path = packages/libjpeg-turbo-8bit/extern/libjpeg-turbo
-	url = https://github.com/PrecisionMetrics/libjpeg-turbo.git
+	url = https://github.com/libjpeg-turbo/libjpeg-turbo.git
 [submodule "packages/libjpeg-turbo-12bit/extern/libjpeg-turbo"]
 	path = packages/libjpeg-turbo-12bit/extern/libjpeg-turbo
-	url = git@github.com:PrecisionMetrics/libjpeg-turbo.git
+	url = https://github.com/libjpeg-turbo/libjpeg-turbo.git
