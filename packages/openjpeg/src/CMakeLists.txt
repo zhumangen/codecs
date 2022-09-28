@@ -28,7 +28,7 @@ set_target_properties(
       -s EXPORT_NAME=OpenJPEGJS \
       -s WASM=0 \
       -s DISABLE_EXCEPTION_CATCHING=1 \
-      -s ASSERTIONS=1 \
+      -s ASSERTIONS=0 \
       -s NO_EXIT_RUNTIME=1 \
       -s MALLOC=emmalloc \
       -s ALLOW_MEMORY_GROWTH=1 \
@@ -65,7 +65,7 @@ set_target_properties(
          -s MODULARIZE=1 \
          -s EXPORT_NAME=OpenJPEGWASM \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=1 \
+         -s ASSERTIONS=0 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
          -s ALLOW_MEMORY_GROWTH=1 \
@@ -105,7 +105,7 @@ set_target_properties(
       -s EXPORT_NAME=OpenJPEGJS \
       -s WASM=0 \
       -s DISABLE_EXCEPTION_CATCHING=1 \
-      -s ASSERTIONS=1 \
+      -s ASSERTIONS=0 \
       -s NO_EXIT_RUNTIME=1 \
       -s MALLOC=emmalloc \
       -s ALLOW_MEMORY_GROWTH=1 \
@@ -142,7 +142,7 @@ set_target_properties(
          -s MODULARIZE=1 \
          -s EXPORT_NAME=OpenJPEGWASM \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=1 \
+         -s ASSERTIONS=0 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
          -s ALLOW_MEMORY_GROWTH=1 \

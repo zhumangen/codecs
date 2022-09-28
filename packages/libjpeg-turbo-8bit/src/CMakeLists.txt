@@ -25,7 +25,7 @@
          -s EXPORT_NAME=libjpegturbojs \
          -s WASM=0 \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=1 \
+         -s ASSERTIONS=0 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
          -s TOTAL_MEMORY=134217728 \
@@ -57,7 +57,7 @@
          -s MODULARIZE=1 \
          -s EXPORT_NAME=libjpegturbowasm \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=1 \
+         -s ASSERTIONS=0 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
          -s ALLOW_MEMORY_GROWTH=1 \
@@ -92,7 +92,7 @@
         -s EXPORT_NAME=libjpegturbojs_decode \
         -s WASM=0 \
         -s DISABLE_EXCEPTION_CATCHING=1 \
-        -s ASSERTIONS=1 \
+        -s ASSERTIONS=0 \
         -s NO_EXIT_RUNTIME=1 \
         -s MALLOC=emmalloc \
         -s TOTAL_MEMORY=134217728 \
@@ -125,7 +125,7 @@
         -s MODULARIZE=1 \
         -s EXPORT_NAME=libjpegturbowasm_decode \
         -s DISABLE_EXCEPTION_CATCHING=1 \
-        -s ASSERTIONS=1 \
+        -s ASSERTIONS=0 \
         -s NO_EXIT_RUNTIME=1 \
         -s MALLOC=emmalloc \
         -s ALLOW_MEMORY_GROWTH=1 \
