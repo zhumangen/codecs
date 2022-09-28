@@ -26,10 +26,10 @@
          -s EXPORT_NAME=libjpegturbo12js \
          -s WASM=0 \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=0 \
+         -s ASSERTIONS=1 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
-         -s TOTAL_MEMORY=1073741824 \
+         -s TOTAL_MEMORY=134217728 \
          -s FILESYSTEM=0 \
          -s EXPORTED_FUNCTIONS=[] \
          -s EXPORTED_RUNTIME_METHODS=[ccall] \
@@ -60,11 +60,11 @@
          -s MODULARIZE=1 \
          -s EXPORT_NAME=libjpegturbo12wasm \
          -s DISABLE_EXCEPTION_CATCHING=1 \
-         -s ASSERTIONS=0 \
+         -s ASSERTIONS=1 \
          -s NO_EXIT_RUNTIME=1 \
          -s MALLOC=emmalloc \
          -s ALLOW_MEMORY_GROWTH=1 \
-         -s TOTAL_MEMORY=1073741824 \
+         -s TOTAL_MEMORY=134217728 \
          -s FILESYSTEM=0 \
          -s EXPORTED_FUNCTIONS=[] \
          -s EXPORTED_RUNTIME_METHODS=[ccall] \
